@@ -1,4 +1,0 @@
-FROM Python:2.7.11
-COPY TEST.py
-RUN TEST
-CMD ["Python","TEST"]
