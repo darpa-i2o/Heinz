@@ -1,4 +1,4 @@
 FROM python:2.7.11
-COPY TEST.py
+COPY TEST.py .
 RUN TEST
 CMD ["python","TEST']
