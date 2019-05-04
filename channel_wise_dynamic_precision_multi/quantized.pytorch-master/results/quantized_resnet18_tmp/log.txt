@@ -1,0 +1,37 @@
+2019-04-29 21:25:16 - INFO - saving to ./results/quantized_resnet18_tmp
+2019-04-29 21:25:16 - DEBUG - run arguments: Namespace(batch_size=128, beta=1e-05, computation_cost=True, dataset='cifar10', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='resnet_quantized', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar', save='quantized_resnet18_tmp', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2019-04-29 21:25:19 - INFO - creating model resnet_quantized
+2019-04-29 21:25:19 - INFO - created model with configuration: {'dataset': 'cifar10', 'input_size': None, 'depth': 18}
+2019-04-29 21:25:19 - INFO - loading checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar'
+2019-04-29 21:26:17 - INFO - saving to ./results/quantized_resnet18_tmp
+2019-04-29 21:26:17 - DEBUG - run arguments: Namespace(batch_size=128, beta=1e-05, computation_cost=True, dataset='cifar10', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='resnet_quantized', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar', save='quantized_resnet18_tmp', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2019-04-29 21:26:20 - INFO - creating model resnet_quantized
+2019-04-29 21:26:20 - INFO - created model with configuration: {'dataset': 'cifar10', 'depth': 18, 'input_size': None}
+2019-04-29 21:26:20 - INFO - loading checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar'
+2019-04-29 21:26:24 - INFO - loaded checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar' (epoch 87)
+2019-04-29 21:26:24 - INFO - number of parameters: 567857
+2019-04-29 21:26:27 - INFO - training regime: [{'epoch': 0, 'momentum': 0.9, 'weight_decay': 0.0001, 'lr': 0.1, 'optimizer': 'SGD'}, {'epoch': 81, 'lr': 0.01}, {'epoch': 122, 'weight_decay': 0, 'lr': 0.001}, {'epoch': 164, 'lr': 0.0001}]
+2019-04-29 21:27:13 - INFO - saving to ./results/quantized_resnet18_tmp
+2019-04-29 21:27:13 - DEBUG - run arguments: Namespace(batch_size=128, beta=1e-05, computation_cost=True, dataset='cifar10', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='resnet_quantized', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar', save='quantized_resnet18_tmp', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2019-04-29 21:27:16 - INFO - creating model resnet_quantized
+2019-04-29 21:27:16 - INFO - created model with configuration: {'depth': 18, 'dataset': 'cifar10', 'input_size': None}
+2019-04-29 21:27:16 - INFO - loading checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar'
+2019-04-29 21:27:20 - INFO - loaded checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar' (epoch 87)
+2019-04-29 21:27:20 - INFO - number of parameters: 567857
+2019-04-29 21:27:22 - INFO - training regime: [{'lr': 0.1, 'momentum': 0.9, 'weight_decay': 0.0001, 'epoch': 0, 'optimizer': 'SGD'}, {'lr': 0.01, 'epoch': 81}, {'lr': 0.001, 'epoch': 122, 'weight_decay': 0}, {'lr': 0.0001, 'epoch': 164}]
+2019-04-29 21:28:34 - INFO - saving to ./results/quantized_resnet18_tmp
+2019-04-29 21:28:34 - DEBUG - run arguments: Namespace(batch_size=128, beta=1e-05, computation_cost=True, dataset='cifar10', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='resnet_quantized', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar', save='quantized_resnet18_tmp', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2019-04-29 21:28:37 - INFO - creating model resnet_quantized
+2019-04-29 21:28:37 - INFO - created model with configuration: {'depth': 18, 'dataset': 'cifar10', 'input_size': None}
+2019-04-29 21:28:37 - INFO - loading checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar'
+2019-04-29 21:28:52 - INFO - saving to ./results/quantized_resnet18_tmp
+2019-04-29 21:28:52 - DEBUG - run arguments: Namespace(batch_size=128, beta=1e-05, computation_cost=True, dataset='cifar10', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='resnet_quantized', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar', save='quantized_resnet18_tmp', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2019-04-29 21:28:54 - INFO - creating model resnet_quantized
+2019-04-29 21:28:55 - INFO - created model with configuration: {'depth': 18, 'input_size': None, 'dataset': 'cifar10'}
+2019-04-29 21:28:55 - INFO - loading checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar'
+2019-04-29 21:28:58 - INFO - loaded checkpoint '/home/yang_zhao/channel_wise_dynamic_precision_multi/quantized.pytorch-master/results/quantized_resnet18/model_best.pth.tar' (epoch 87)
+2019-04-29 21:28:58 - INFO - number of parameters: 567857
+2019-04-29 21:29:00 - INFO - training regime: [{'optimizer': 'SGD', 'momentum': 0.9, 'lr': 0.1, 'epoch': 0, 'weight_decay': 0.0001}, {'lr': 0.01, 'epoch': 81}, {'lr': 0.001, 'epoch': 122, 'weight_decay': 0}, {'lr': 0.0001, 'epoch': 164}]
+2019-04-29 21:29:01 - DEBUG - OPTIMIZER - setting lr = 0.01
+2019-04-29 21:29:01 - INFO - TRAINING - Epoch: [86][0/391]	Time 1.485 (1.485)	Data 0.482 (0.482)	Loss 0.3394 (0.3394)	Prec@1 95.312 (95.312)	Prec@5 100.000 (100.000)	Compression_rate: 7.510(7.510)	
+2019-04-29 21:29:06 - INFO - TRAINING - Epoch: [86][10/391]	Time 0.392 (0.567)	Data 0.000 (0.044)	Loss 0.2626 (0.3240)	Prec@1 99.219 (94.957)	Prec@5 100.000 (99.787)	Compression_rate: 7.511(7.510)	
